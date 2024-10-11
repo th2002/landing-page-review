@@ -1,7 +1,6 @@
 'use client';
-import { ButtonArrowIcon, SmartPhone } from '@public/icons';
+
 import Image from 'next/image';
-import Link from 'next/link';
 import { useState } from 'react';
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -121,7 +120,7 @@ export function TeamTabs() {
         >
           {tabsData[activeTabIndex].data &&
             tabsData[activeTabIndex].data.map((card, index) => (
-              <SwiperSlide className="!h-auto">
+              <SwiperSlide key={index} className="!h-auto">
                 <div className="card-main flex h-full flex-col overflow-hidden rounded-2xl bg-[#e8e8e8] p-5 pb-[30px] text-left shadow-xl">
                   <div className="relative size-full overflow-hidden rounded-[10px]">
                     <Image

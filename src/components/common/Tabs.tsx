@@ -1,4 +1,5 @@
 'use client';
+
 import { ButtonArrowIcon } from '@public/icons';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -120,7 +121,7 @@ export function Tabs() {
           {tabsData[activeTabIndex].data &&
             tabsData[activeTabIndex].data.map((data, idx) => {
               return (
-                <div className="border-b border-[#19202033] p-[30px]">
+                <div key={idx} className="border-b border-[#19202033] p-[30px]">
                   <h3>
                     <Link
                       href="/ai-development-services.php"

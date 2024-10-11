@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 export default function Hero() {
   return (
     <section
-      className="h-hero-section relative z-[-1] flex size-full flex-col items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat object-cover md:z-0"
+      className="relative z-[-1] flex size-full h-hero-section flex-col items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat object-cover md:z-0"
       style={{
         background: "url('/images/hero-background.png') no-repeat center",
         backgroundSize: 'cover',
@@ -84,5 +84,3 @@ export default function Hero() {
     </section>
   );
 }
-
-1;

@@ -3,8 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import {
-  ArrowLeft,
-  ArrowRight,
   ButtonArrowIcon,
   Medal,
   PaintBucket,
@@ -106,7 +104,7 @@ export default function OurWork() {
                       </li>
                       <li className="font-14 badge-dash font-primary font-normal">
                         <Medal className="icon" />
-                        World's #1 Visual Database
+                        World&apos;s #1 Visual Database
                       </li>
                       <li className="font-14 badge-dash font-primary font-normal">
                         <TrendingDown className="icon" />
@@ -188,7 +186,7 @@ export default function OurWork() {
                       </li>
                       <li className="font-14 badge-dash font-primary font-normal">
                         <Medal className="icon" />
-                        World's #1 Visual Database
+                        World&apos;s #1 Visual Database
                       </li>
                       <li className="font-14 badge-dash font-primary font-normal">
                         <TrendingDown className="icon" />

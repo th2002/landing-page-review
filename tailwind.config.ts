@@ -33,10 +33,19 @@ const config: Config = {
       },
       height: {
         'hero-section': 'calc(100vh - 80px)',
+        input: 'calc(2.2em + 0.75rem + 9px)',
       },
       aspectRatio: {
         'auto-133/66': 'auto 133/66',
         'portfolio-img': 'auto 1520 / 1140',
+        'auto-1146/700': 'auto 1146/700',
+      },
+
+      borderRadius: {
+        '24': '24px',
+      },
+      transitionDuration: {
+        '600': '600ms',
       },
     },
     fontFamily: {

@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 export default function OurWork() {
   return (
-    <div className="py-[90px]">
+    <div className="bg-primary-foreground py-[90px]">
       <div className="our-work-main relative mx-auto w-full xl:max-w-screen-2xl">
         <div className="grid grid-cols-2 items-center">
           <div>

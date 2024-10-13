@@ -1,6 +1,6 @@
 'use client';
 
-import { CLIENTS } from '@/constant/clients.const';
+import { CLIENTS } from '@/constants/clients.const';
 import Image from 'next/image';
 
 export default function TrustedBy() {
